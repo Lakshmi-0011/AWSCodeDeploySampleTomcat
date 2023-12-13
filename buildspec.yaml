@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      java: Corretto-17.0.9.8.1
   pre_build:
     commands:
       - yum install -y maven
